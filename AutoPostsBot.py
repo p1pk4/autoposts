@@ -6,7 +6,7 @@ import threading
 from dotenv import load_dotenv
 
 # Загрузка и установка переменных окружения
-load_dotenv('D:/_iiLight/autoTGpostsBot/autoTGpostsBot.env')
+# load_dotenv('D:/_iiLight/autoTGpostsBot/autoTGpostsBot.env')
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 CHANNEL_ID = os.getenv('CHANNEL_ID')
