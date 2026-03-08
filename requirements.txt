@@ -1,3 +1,4 @@
-python-telebot==4.14.0
-openai==1.40.0
-python-dotenv==1.0.1
+python-telebot
+openai
+python-dotenv
+
