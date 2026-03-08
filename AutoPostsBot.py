@@ -7,9 +7,14 @@ from dotenv import load_dotenv
 
 # Загрузка и установка переменных окружения
 # load_dotenv('D:/_iiLight/autoTGpostsBot/autoTGpostsBot.env')
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-CHANNEL_ID = os.getenv('CHANNEL_ID')
+# TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+# OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+# CHANNEL_ID = os.getenv('CHANNEL_ID')
+TELEGRAM_TOKEN = '6557209587:AAGScs37W0qmN7zQcedebP9SVdKzGMHqTuM'
+OPENAI_API_KEY = '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'
+CHANNEL_ID = '-1001999144405'
+
+
 
 GENERATION_INSTRUCTIONS = "Используйте текст автора как основу для создания уникального воображаемого мира, где любые "\
                           "объекты (деревья, здания, граффити, рисунки) скрывают тайные существа, силы или магические " \
